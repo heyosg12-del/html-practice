@@ -80,3 +80,27 @@ a:hover {
     width: 160px;
   }
 }
+.active {
+  background-color: #1a73e8;
+  color: white;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+#nameBtn {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through;
+  color: #999;
+}

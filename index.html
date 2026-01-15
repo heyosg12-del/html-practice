@@ -7,15 +7,35 @@
   </head>
   <body>
     <header class="profile">
->
+      >
       <h1>첫 HTML 페이지</h1>
-      <img src="profile.jpg" alt="프로필 이미지" width="200" />
+      <img src="profile.png" alt="프로필 사진" />
     </header>
+    <main class="content">
+      <section class="card">
+        <h2>TODO</h2>
 
-    <main>
+        <input id="todoInput" type="text" placeholder="할 일을 입력하세요" />
+        <button id="addTodoBtn">추가</button>
+        <button id="clearTodoBtn">전체 삭제</button>
+
+        <ul id="todoList"></ul>
+      </section>
+      <p id="message">아직 안 눌림</p>
+      <button id="alertBtn">눌러보세요</button>
+      <p id="count">0</p>
+
+      >
       <p>웹 개발 시작</p>
 
       <section class="card">
+        <h2>이름 입력</h2>
+
+        <input id="nameInput" type="text" placeholder="이름을 입력하세요" />
+        <button id="nameBtn">적용</button>
+
+        <p id="nameResult">아직 입력 안 함</p>
+      </section>
 
       <h2>내 정보</h2>
 
@@ -30,11 +50,6 @@
         <a href="https://github.com/" target="_blank">GitHub</a>에 정리할 예정
       </p>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
-.card {
-  background-color: #fff;
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
